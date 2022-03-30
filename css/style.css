@@ -106,7 +106,7 @@ a:hover{
 /*юридические услуги*/
 
 .legal-services{
-    background:url(img/main.png) no-repeat center;
+    background:url(../img/main.png) no-repeat center;
     height: 630px;
 }
 
@@ -326,7 +326,7 @@ h3{
 }
 
 .why_are_we-advantage-1{
-    background-image: url(img/five_bl_1.png);
+    background-image: url(../img/five_bl_1.png);
 }
 .why_are_we-advantage-1 h3{
     margin-top: 154px;  
@@ -337,7 +337,7 @@ h3{
 }
 
 .why_are_we-advantage-2{
-    background-image: url(img/five_bl_2.png);
+    background-image: url(../img/five_bl_2.png);
 }
 .why_are_we-advantage-2 h3{
     margin-top: 164px;  
