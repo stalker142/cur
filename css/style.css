@@ -106,7 +106,7 @@ a:hover{
 /*юридические услуги*/
 
 .legal-services{
-    background:url(/img/main.png) no-repeat center;
+    background:url(../img/main.png) no-repeat center;
     height: 630px;
 }
 
@@ -139,7 +139,6 @@ h1{
 .service{
     background-color: #ffffff;
     width:350px;
-    height: 370px;
     margin-right: 31px;
 }
 
@@ -327,7 +326,7 @@ h3{
 }
 
 .why_are_we-advantage-1{
-    background-image: url(/img/five_bl_1.png);
+    background-image: url(../img/five_bl_1.png);
 }
 .why_are_we-advantage-1 h3{
     margin-top: 154px;  
@@ -338,7 +337,7 @@ h3{
 }
 
 .why_are_we-advantage-2{
-    background-image: url(/img/five_bl_2.png);
+    background-image: url(../img/five_bl_2.png);
 }
 .why_are_we-advantage-2 h3{
     margin-top: 164px;  
@@ -346,9 +345,14 @@ h3{
     margin-left:10px ;
     margin-bottom: 20px;
 }
+.why_are_we-advantage-2 p{
+margin-bottom: 0px;
+margin-right: 20px;
+}
+
 
 .why_are_we-advantage-3{
-    background-image: url(/img/five_bl_3.png);
+    background-image: url(../img/five_bl_3.png);
 }
 .why_are_we-advantage-3 h3{
     margin-top: 185px;  
@@ -358,7 +362,7 @@ h3{
 }
 
 .why_are_we-advantage-4{
-    background-image: url(/img/five_bl_4.png);
+    background-image: url(../img/five_bl_4.png);
 }
 .why_are_we-advantage-4 h3{
     margin-top: 185px;  
@@ -368,7 +372,7 @@ h3{
 }
 
 .why_are_we-advantage-5{
-    background-image: url(/img/five_bl_5.png);
+    background-image: url(../img/five_bl_5.png);
 }
 .why_are_we-advantage-5 h3{
     margin-top: 164px;  
