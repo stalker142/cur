@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+}
+
+.center{
+    width: 1280px;
+    margin:0 auto;
+}
+/*header*/
+
+header{
+    height: 77px ;
+    background-color: #0C3B7E;
+}
+
+.alignment{
+    display:flex;
+}
+
+/*logo*/
+.logo{
+display:flex;
+margin-left: 120px;
+margin-top: 8px;
+}
+.logo img{
+    width:55px;
+    height:60px;
+}
+.logo p{
+    margin-left:3px;
+    margin-top: 10px;
+    color:#ffffff;
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff
+}
+
+.contacts a{
+    color: black;
+}
+
+.contacts a:hover{
+    color: rgb(47, 0, 255);
+    transition: all .23s ease .15s;}
+
+/*nav*/
+nav{
+    display:inline;
+    color:#ffffff
+}
+ul{
+    list-style: none;
+    
+}
+header ul{
+    margin-left:160px;
+}
+header li{
+    display: inline;
+    line-height: 75px;
+    margin-right: 60px;
+}
+header ul :last-child{
+    margin-right: 0px;
+}
+
+/*контактный номер*/
+
+.telephone{
+    display: flex;
+    margin:30px 20px 14px 120px;
+    color: #ffffff;
+}
+a:hover{
+    color: rgb(252, 248, 30);
+    transition: all .23s ease .15s;
+}
+.telephone:hover{
+    color: rgb(252, 248, 30);
+    transition: all .23s ease .15s;
+}
+.telephone img{
+    width: 11px;
+    height: 13px;
+    margin-top: 3px;
+    margin-right:5px;
+}
+.telephone p{
+    margin-left:5px;
+}
+
+
+/*юридические услуги*/
+
+.legal-services{
+    background:url(/img/main.png) no-repeat center;
+    height: 630px;
+}
+
+.center-fon{
+background-color:rgba(255, 255, 255,0.5);
+position: absolute;
+width: 1192px;
+height: 630px;
+margin:0px 44px;
+padding:0px 40px;
+
+}
+
+h1{
+    color: #ffffff;
+
+    font-family: Montserrat;
+    font-size: 50px;
+    line-height: 20px;
+    text-align: center;
+}
+.legal-services-title{
+    margin: 60px 0px;
+}
+
+/*юридические услуги (список услуг)*/
+.services{
+    display: flex;
+}
+.service{
+    background-color: #ffffff;
+    width:350px;
+    height: 370px;
+    margin-right: 31px;
+}
+
+
+.service-title{
+    background-color:#0C397A ;
+    color: #ffffff;
+    position: absolute;
+    width: 230px;
+    height: 60px;
+    top: 308px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.service-text{
+    padding-top:35px;
+    margin-left: 10px;
+    margin-right:10px;
+
+    font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+/*о нас*/
+h2{
+    color: #0C397A;
+
+    font-family: Montserrat;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+}
+.we-title{
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.we p{
+    margin: 0px 64px 20px 64px;
+
+    font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+/*Преимущества компании*/
+
+.advantage-list{
+	display: flex;
+    margin-top: 30px;
+}
+
+
+.advantage{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+    font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.advantage1{
+	margin-left: 73px;
+    padding-left:74px;
+}
+
+.advantage1::before{
+	content: "";
+	position: absolute;
+	width: 60px;
+    height: 60px;
+	background: url(../img/клиенты.png) no-repeat 0 0;
+	left:0;
+	top: 0;
+}
+
+.advantage2{
+	padding-left: 72px;
+	margin-left: 49px;
+}
+
+.advantage2::before{
+	content: "";
+	position: absolute;
+	width: 60px;
+    height: 60px;
+	background: url(../img/мисия.png) no-repeat 0 0;
+	left: 0;
+	top: 0;
+}
+
+.advantage3{
+	padding-left: 79px;
+	margin-left: 43px;
+}
+
+
+
+
+.advantage3::before{
+	content: "";
+	position: absolute;
+	width: 60px;
+    height: 60px;
+	background: url(../img/цель.png) no-repeat 0 0;
+	left: 0;
+	top: 0;
+}
+
+.advantage dt{
+    color: #0C397A;
+    margin-bottom: 8px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 20px;
+	
+	
+}
+
+.advantage dd{
+	width: 275px;
+
+    font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+/*почему мы*/
+.why_are_we{
+    display: flex;
+    margin-left: 59px;
+}
+
+.why_are_we-advantages{
+    width: 223px;
+    height:400px ;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+h3{
+    color: #0C397A;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.why_are_we-advantages h3{
+    color: #1D77F9;
+    letter-spacing:3px;
+}
+.why_are_we-advantages p{
+    margin-left: 7px;
+
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.why_are_we-advantage-1{
+    background-image: url(/img/five_bl_1.png);
+}
+.why_are_we-advantage-1 h3{
+    margin-top: 154px;  
+    width: 152px;
+    text-align: left;
+    margin-left:10px ;
+    margin-bottom: 10px;
+}
+
+.why_are_we-advantage-2{
+    background-image: url(/img/five_bl_2.png);
+}
+.why_are_we-advantage-2 h3{
+    margin-top: 164px;  
+    text-align: left;
+    margin-left:10px ;
+    margin-bottom: 20px;
+}
+
+.why_are_we-advantage-3{
+    background-image: url(/img/five_bl_3.png);
+}
+.why_are_we-advantage-3 h3{
+    margin-top: 185px;  
+    text-align: left;
+    margin-left:10px ;
+    margin-bottom: 20px;
+}
+
+.why_are_we-advantage-4{
+    background-image: url(/img/five_bl_4.png);
+}
+.why_are_we-advantage-4 h3{
+    margin-top: 185px;  
+    text-align: left;
+    margin-left:10px ;
+    margin-bottom: 20px;
+}
+
+.why_are_we-advantage-5{
+    background-image: url(/img/five_bl_5.png);
+}
+.why_are_we-advantage-5 h3{
+    margin-top: 164px;  
+    text-align: left;
+    margin-left:10px ;
+    margin-bottom: 20px;
+}
+
+/*цены на услуги*/
+
+.price-tetle{
+    margin-top:38px;
+    margin-bottom: 20px;
+}
+
+.price h3{
+    margin-bottom: 10px;
+}
+
+/*таблица*/
+table{
+    border:1px solid black;
+    margin-bottom: 35px;
+    border-collapse: collapse;
+    margin-left: 66px;
+    margin-right: 91px;
+    width: 1121px;
+}
+
+tr{
+    border:1px solid black;
+    padding: 10px;}
+td{
+    border:1px solid black;
+    padding: 10px;}
+td p{
+padding-left: 10px;
+text-align: left;}
+
+/*контакты*/
+
+.contacts-title{
+    margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.contacts-info{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.name p{
+    margin-bottom: 10px;
+}
+
+.list-info{margin-right: 74px;}
+
+
+.contacts-info_gorizont div{display: flex;
+margin-bottom: 10px;}
+.contacts-info_gorizont img{
+    margin-right: 10px;
+}
+
+footer{
+    background-color: #0C397A;
+    color: #ffffff;
+}
+
+.footer-logo{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.footer-logo img{
+width:55px;
+height:60px;
+}
+.footer-logo p{
+    color:#ffffff;
+}
+
+.footer-gorizont{
+    display: flex;
+}
+
+footer nav{
+    margin-top:30px;
+    margin-left: 43px;
+    margin-bottom: 30px;
+}
+
+footer li{
+    margin-bottom: 10px;
+}
+
+.footer-info_gorizont_1{
+display: flex;
+flex-direction: column;
+margin-top: 34px;
+margin-left:65px;
+}
+
+.footer-info_gorizont_1 div{display: flex;
+    margin-bottom: 10px;}
+    .footer-info_gorizont_1 img{
+        margin-right: 10px;
+    }
+
+.footer-info_gorizont_2{
+display: flex;
+flex-direction: column;
+margin-top: 34px;
+margin-left:30px;
+}
+        
+.footer-info_gorizont_2 div{display: flex;
+margin-bottom: 10px;}
+.footer-info_gorizont_2 img{
+margin-right: 10px;
+}
+
+.in_working{
+    margin-top: 36px;
+    margin-left: 80px;
+}
+
+.in_working div{
+    margin-top: 15px;
+}
+
+.in_working img{
+    margin-bottom: -5px;
+}
