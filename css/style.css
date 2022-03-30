@@ -229,7 +229,7 @@ h2{
 	position: absolute;
 	width: 60px;
     height: 60px;
-	background: url(img/клиенты.png) no-repeat 0 0;
+	background: url(../img/клиенты.png) no-repeat 0 0;
 	left:0;
 	top: 0;
 }
@@ -244,7 +244,7 @@ h2{
 	position: absolute;
 	width: 60px;
     height: 60px;
-	background: url(img/мисия.png) no-repeat 0 0;
+	background: url(../img/мисия.png) no-repeat 0 0;
 	left: 0;
 	top: 0;
 }
@@ -262,7 +262,7 @@ h2{
 	position: absolute;
 	width: 60px;
     height: 60px;
-	background: url(img/цель.png) no-repeat 0 0;
+	background: url(../img/цель.png) no-repeat 0 0;
 	left: 0;
 	top: 0;
 }
@@ -352,7 +352,7 @@ margin-right: 20px;
 
 
 .why_are_we-advantage-3{
-    background-image: url(img/five_bl_3.png);
+    background-image: url(../img/five_bl_3.png);
 }
 .why_are_we-advantage-3 h3{
     margin-top: 185px;  
@@ -362,7 +362,7 @@ margin-right: 20px;
 }
 
 .why_are_we-advantage-4{
-    background-image: url(img/five_bl_4.png);
+    background-image: url(../img/five_bl_4.png);
 }
 .why_are_we-advantage-4 h3{
     margin-top: 185px;  
@@ -372,7 +372,7 @@ margin-right: 20px;
 }
 
 .why_are_we-advantage-5{
-    background-image: url(img/five_bl_5.png);
+    background-image: url(../img/five_bl_5.png);
 }
 .why_are_we-advantage-5 h3{
     margin-top: 164px;  
